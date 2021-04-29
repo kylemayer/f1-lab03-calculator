@@ -2,13 +2,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(48, 48, 48);
     
 }
 
 main {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    text-align: center;
     padding: 70px;
     background-image: linear-gradient(teal,#B19CD9);
     font-size: 2em;
@@ -43,4 +43,6 @@ button {
     color: white;
     border-radius: 20px;
     padding: 6px;
+    width: 75px;
+    border-color: rgb(226, 20, 20);
 }
