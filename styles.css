@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding: 10px;
+}
+
+.header {
+    font-style: bold;
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.addition {
+    padding: 10px;
+}
+
+input {
+    border-radius: 20px;
+    border: dotted 2px blue;
+    padding: 6px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 6px;
+}
