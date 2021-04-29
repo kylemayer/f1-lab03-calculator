@@ -6,6 +6,10 @@ body {
     
 }
 
+* {
+    box-sizing: border-box;
+}
+
 main {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -29,7 +33,26 @@ main {
 }
 
 .addition {
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtraction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.multiplication {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.division {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 input {
